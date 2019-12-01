@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: demo-eureka-server
+  security:
+    user:
+      name: bban
+      password: 123456
+
+#spring:
+#  profiles: peer1
+server:
+  port: 8701
+eureka:
+  server:
+    enable-self-preservation: false   #保护机制,测试环境关闭
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://bban:123456@localhost:8701/eureka/   #添加默认注册,不然会一直连接默认端口8761
+    fetchRegistry: false
+    registerWithEureka: false
