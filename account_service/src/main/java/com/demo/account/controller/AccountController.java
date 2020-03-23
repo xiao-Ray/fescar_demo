@@ -47,4 +47,11 @@ public class AccountController {
             return R.error(e.getMessage());
         }
     }
+
+    /**
+     * test_tag
+     */
+    public static void main(String[] args) {
+        System.out.println("测试新增的tag版本v1.0.1");
+    }
 }
