@@ -49,13 +49,11 @@ public class AccountController {
     }
 
     /**
-     * test_tag
+     * test_tag-1.4
      */
     public static void main(String[] args) {
-        System.out.println("测试新增的tag版本v1.0.1");
+        System.out.println("测试新增的tag版本v1.4");
     }
 
-    public static void test_tag02(){
-        System.out.println("测试新增的tag版本v1.0.2");
-    }
+
 }
