@@ -32,7 +32,7 @@
         <commons-beanutils-version>1.9.3</commons-beanutils-version>
         <commons-lang-version>2.6</commons-lang-version>
         <commons-fileupload-version>1.4</commons-fileupload-version>
-        <commons-io-version>2.6</commons-io-version>
+        <commons-io-version>2.7</commons-io-version>
         <commons-text>1.6</commons-text>
         <commons-codec-version>1.12</commons-codec-version>
         <commons-configuration-version>1.10</commons-configuration-version>
